@@ -1,26 +1,34 @@
-This project is a simple Python application that generates a QR (Quick Response) code for the website https://www.bioxsystems.com/
+# QR Code Generator – Python
 
-The program uses the Python qrcode library to encode the URL into a two-dimensional, machine-readable format and outputs the QR code as a PNG image file.
+A simple Python application that generates a QR (Quick Response) code for the Biox Systems website.
 
-Requirements
+## Encoded URL
+https://www.bioxsystems.com/
 
-Python 3.x
+## Features
+- Generates a QR code from a URL
+- Saves output as a PNG image
+- Uses standard QR formatting for reliable scanning
 
-qrcode library with PIL support
+## Requirements
+- Python 3.x
+- qrcode library with PIL support
 
-How to Run
-
-Install the required library:
-
+## Installation
 pip install qrcode[pil]
 
-
-Run the Python script:
-
+## Usage
 python qr_generator.py
 
-Output
+## Output
+bioxsystems_qrcode.png  
+Scanning the QR code redirects to the Biox Systems website.
 
-Generates a QR code image named bioxsystems_qrcode.png
+## Project Structure
+.
+├── qr_generator.py  
+├── README.md  
+└── bioxsystems_qrcode.png  
 
-Scanning the QR code redirects to the Biox Systems website
+## Description
+This project demonstrates how Python can be used to generate QR codes by encoding a URL into a two-dimensional, machine-readable format using the qrcode library.
